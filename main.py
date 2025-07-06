@@ -6,8 +6,8 @@ HEADER ={'Content-Type':'application/json', 'trainer_token' :TOKEN}
 
 body_registration = {
     "trainer_token": TOKEN,
-    "email": "5709037@mail.ru",
-    "password": "введите пароль"
+    "email": "введите почту",  // введите свою почту
+    "password": "введите пароль" //введите свой пароль
 }
 body_create = {
     "name": "Puipui",
