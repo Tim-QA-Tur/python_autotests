@@ -10,8 +10,8 @@ body_registration = {
     "password": "введите пароль" //введите свой пароль
 }
 body_create = {
-    "name": "Puipui",
-    "photo_id": "850"
+    "name": "Puipui", # придумайте имя для покемона или можно сгенерировать случайные значения для имени передав строку "generate"
+    "photo_id": "850"  # аватар для покемона от 1 до 1000 или можно сгенерировать случайное фото передав число -1
 }
 body_rename = {"pokemon_id": "288391",
     "name": "Chuichui",
@@ -30,3 +30,4 @@ print(response_rename.text)'''
 
 response_add_pokeball = requests.post(url =f'{URL}/trainers/add_pokeball', headers=HEADER, json=body_add_pokeball)
 print(response_add_pokeball.text)
+
